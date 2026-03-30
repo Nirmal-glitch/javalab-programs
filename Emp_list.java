@@ -43,8 +43,7 @@ System.out.println("Enter employee Salary");
 float empf=in.nextFloat();
 emp[++i]=new Employee(empid,empn,empf);
 break;
-case 2:System.out.println("Enter employee Number to be
-searched");
+case 2:System.out.println("Enter employee Number to be searched");
 flag=0;
 empid=in.nextInt();
 for(int j=0;j<i+1;j++)
