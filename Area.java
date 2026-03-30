@@ -23,8 +23,7 @@ public static void main(String args[])
 {
 Shapes sh= new Shapes();
 System.out.println("Area Of Sqaure of length 5: "+sh.area(5));
-System.out.println("Area Of Rectangle of length 5 and breadth 4:
-"+sh.area(5,4));
+System.out.println("Area Of Rectangle of length 5 and breadth 4:"+sh.area(5,4));
 System.out.println("Area Of Circle of radius 2: "+sh.area(2.00));
 }
 }
